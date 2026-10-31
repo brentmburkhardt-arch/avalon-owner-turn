@@ -1,0 +1,34 @@
+name: Avalon temporary HA 2026.10.4 recovery
+version: "1.0.0"
+slug: avalon_ha_2026104_recovery
+description: One-shot HA compatibility source exchange/removal. No runtime service.
+arch:
+  - aarch64
+startup: once
+boot: manual_only
+init: false
+ingress: false
+host_network: false
+host_pid: false
+host_ipc: false
+host_uts: false
+host_dbus: false
+docker_api: false
+hassio_api: false
+homeassistant_api: true
+auth_api: false
+privileged: []
+full_access: false
+apparmor: true
+stdin: false
+map:
+  - type: homeassistant_config
+    path: /homeassistant
+    read_only: false
+options:
+  operation: preflight
+schema:
+  operation: "list(preflight|prepare|install|verify|remove|verify-removed)"
+environment:
+  PYTHONDONTWRITEBYTECODE: "1"
+  PYTHONUNBUFFERED: "1"

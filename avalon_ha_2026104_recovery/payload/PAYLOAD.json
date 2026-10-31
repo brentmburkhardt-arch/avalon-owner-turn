@@ -1,0 +1,9 @@
+{
+  "HA_BASELINE_FILES.json": "66bbbc94cd3ee172f4e0df45e5447e297c1238e3a6d6dde7b341ca05fe1a43e4",
+  "HA_FORWARD_FILES.json": "22e4368558ed747ad5784435a57cff97f2dc00dd67f80f1897ab8af3b68d8c42",
+  "ha-baseline.tar": "35884804484722edbbbed151b00f7294710af76af895fd5703c9b87af3775337",
+  "ha-forward.tar": "ca804da3f689f1c80c5fd925be151f4d03816fcde85fa7454fd34fa35fad428e",
+  "helpers/ha_inspect.py": "3e694de95acbcfd3a4aab1a05ab1578bcefa1d339e20a5decb9777f658c68801",
+  "helpers/ha_owner_turn.py": "9e7896af092e6f59bc1cdb8eeec1f58694321e309af27f542b9cf24415f69319",
+  "helpers/package_io.py": "6853305eda30b7d5e36839fcc435ac5304ed4e651faf13f150bc94e72a9a904e"
+}
